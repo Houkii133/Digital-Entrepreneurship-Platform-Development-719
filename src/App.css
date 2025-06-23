@@ -1,0 +1,142 @@
+.prose {
+  color: #374151;
+  max-width: none;
+}
+
+.prose h2 {
+  color: #1f2937;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose h4 {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose blockquote {
+  border-left: 4px solid #0ea5e9;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  background-color: #f8fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.prose a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.prose a:hover {
+  color: #0284c7;
+  text-decoration: underline;
+}
+
+.prose code {
+  background-color: #f1f5f9;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+/* Custom styles for specific elements */
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.text-primary-600 {
+  color: #0ea5e9;
+}
+
+.hover\:text-primary-700:hover {
+  color: #0369a1;
+}
+
+/* Quest SDK custom styles */
+.quest-get-started-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Ensure Quest SDK styles don't conflict */
+.quest-get-started-container * {
+  box-sizing: border-box;
+}
+
+/* Help Hub z-index override to ensure it's above navbar and sidebar */
+[data-quest-help-hub] {
+  z-index: 9999 !important;
+}
+
+/* Ensure help hub button is always visible */
+.quest-help-hub-trigger {
+  z-index: 9999 !important;
+  position: fixed !important;
+}
+
+/* Custom help hub styling to match your brand */
+.quest-help-hub {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif !important;
+}
+
+.quest-help-hub-header {
+  background-color: #0ea5e9 !important;
+}
+
+.quest-help-hub-message {
+  color: #374151 !important;
+}
+
+.quest-help-hub-input {
+  border-color: #e2e8f0 !important;
+}
+
+.quest-help-hub-input:focus {
+  border-color: #0ea5e9 !important;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1) !important;
+}
+
+.quest-help-hub-button {
+  background-color: #0ea5e9 !important;
+}
+
+.quest-help-hub-button:hover {
+  background-color: #0284c7 !important;
+}
