@@ -44,14 +44,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">D</span>
-              </div>
-              <div>
-                <span className="text-xl font-bold">DrivenMind</span>
-                <span className="text-primary-400">.io</span>
-              </div>
+            <Link to="/" className="flex items-center mb-4">
+              <img 
+                src="https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1750785079361-blob" 
+                alt="DrivenMind Logo" 
+                className="w-12 h-12 object-contain" 
+              />
             </Link>
             <p className="text-dark-300 mb-6">
               Master Yourself. Build Your Empire.

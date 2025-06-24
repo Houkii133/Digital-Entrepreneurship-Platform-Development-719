@@ -39,14 +39,12 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200">
-              <span className="text-white font-bold text-xl">D</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-xl font-bold text-dark-900">DrivenMind</span>
-              <span className="text-primary-600">.io</span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img 
+              src="https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1750785079361-blob" 
+              alt="DrivenMind Logo" 
+              className="w-16 h-16 object-contain transform group-hover:scale-105 transition-transform duration-200" 
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -1,11 +1,10 @@
 const questConfig = {
-  QUEST_HELP_QUESTID: 'c-greta-help-hub',
-  GET_STARTED_QUESTID: 'c-greta-get-started',
+  QUEST_ONBOARDING_QUESTID: 'c-greta-onboarding',
   USER_ID: 'u-28481f1c-1820-471c-98e1-591dff834b02',
-  APIKEY: 'k-e820ccff-0d96-450a-93e0-a89e1eb09ee8',
+  APIKEY: 'k-00baf01d-1013-471c-9593-f8c9a48e2182',
   TOKEN: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1LTI4NDgxZjFjLTE4MjAtNDcxYy05OGUxLTU5MWRmZjgzNGIwMiIsImlhdCI6MTc1MDY5OTU2OSwiZXhwIjoxNzUzMjkxNTY5fQ.7MjtOC94tesZb-c29X4bs52OupL70E7zB5vFkQ13zIo',
-  ENTITYID: 'e-2926cd0b-9c4a-46fd-b9ce-8d7caa424d96',
-  PRIMARY_COLOR: '#0ea5e9' // Extracted from your primary-500 color in tailwind config
+  ENTITYID: 'e-f1c501f1-4958-4ea6-80bc-1902623c0f2f',
+  PRIMARY_COLOR: '#0ea5e9' // Extracted from your primary-500 color
 };
 
 export default questConfig;

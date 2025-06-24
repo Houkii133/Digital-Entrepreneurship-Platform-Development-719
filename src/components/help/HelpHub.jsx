@@ -19,7 +19,7 @@ const AppHelpHub = () => {
       questId={questConfig.QUEST_HELP_QUESTID}
       accent={questConfig.PRIMARY_COLOR}
       botLogo={{
-        logo: 'https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1741000949338-Vector%20%282%29.png'
+        logo: 'https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1750785079361-blob'
       }}
       style={{
         zIndex: 9999 // Ensure it's above navbar and sidebar
